@@ -13,7 +13,7 @@ namespace LearnCsharp2
         {
             for (int i = 1; i < 10; i++)
             {
-                for(int j = 1; j < 10; j++)
+                for (int j = 1; j < 10; j++)
                 {
                     int result = i * j;
                     Console.Write(result + "\t");
@@ -53,12 +53,12 @@ namespace LearnCsharp2
             int f = 1;
             if (a > 0)
             {
-                while(a > 0)
+                while (a > 0)
                 {
                     f *= a--;
                     Console.WriteLine(f);
                 }
-                
+
             }
             else
             {
@@ -66,20 +66,20 @@ namespace LearnCsharp2
                 d *= d--;
                 Console.WriteLine(d);
                 return d;
-                
+
             }
 
             return f;
         }
 
 
-        static void  PrintOddsFromZeroTo(uint num)
+        static void PrintOddsFromZeroTo(uint num)
         {
             Console.WriteLine("Enter number:");
             int userValue = int.Parse(Console.ReadLine());
 
             for (int i = 0; i <= userValue; i++)
-                if (i % 2 !=0)
+                if (i % 2 != 0)
                     Console.WriteLine("{0}", i);
         }
         static void Main(string[] args)

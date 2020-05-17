@@ -1,6 +1,0 @@
-C:\Users\User\source\repos\LearnCsharp2\LearnCsharp2\bin\Debug\LearnCsharp2.exe.config
-C:\Users\User\source\repos\LearnCsharp2\LearnCsharp2\bin\Debug\LearnCsharp2.exe
-C:\Users\User\source\repos\LearnCsharp2\LearnCsharp2\bin\Debug\LearnCsharp2.pdb
-C:\Users\User\source\repos\LearnCsharp2\LearnCsharp2\obj\Debug\LearnCsharp2.csprojAssemblyReference.cache
-C:\Users\User\source\repos\LearnCsharp2\LearnCsharp2\obj\Debug\LearnCsharp2.exe
-C:\Users\User\source\repos\LearnCsharp2\LearnCsharp2\obj\Debug\LearnCsharp2.pdb

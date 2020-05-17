@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("LearnCsharp2")]
+[assembly: AssemblyTitle("LearnC3")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("LearnCsharp2")]
+[assembly: AssemblyProduct("LearnC3")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("38c40f95-cd1a-487b-89d1-4606bb96ee19")]
+[assembly: Guid("94ce2776-fe1d-4a39-9c0d-aedb7d8c3b85")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

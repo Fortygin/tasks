@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{38C40F95-CD1A-487B-89D1-4606BB96EE19}</ProjectGuid>
+    <ProjectGuid>{94CE2776-FE1D-4A39-9C0D-AEDB7D8C3B85}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LearnCsharp2</RootNamespace>
-    <AssemblyName>LearnCsharp2</AssemblyName>
+    <RootNamespace>LearnC3</RootNamespace>
+    <AssemblyName>LearnC3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\Desktop\Слава\программирование\generatorValue\tasks.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
