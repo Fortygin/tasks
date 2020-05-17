@@ -11,6 +11,7 @@ namespace LearnCsharp2
     {
         static void PrintProductTable()
         {
+            
             for (int i = 1; i < 10; i++)
             {
                 for (int j = 1; j < 10; j++)
@@ -20,7 +21,7 @@ namespace LearnCsharp2
                 }
                 Console.WriteLine();
             }
-            Console.ReadLine();
+           
         }
 
         static void PrintNumbersToZero(int num)
@@ -46,45 +47,39 @@ namespace LearnCsharp2
 
         static int Factorial(int num2)
         {
-            int userValue = int.Parse(Console.ReadLine()); 
+            
             int f = 1;
-            if (userValue > 0)
+            if (num2 > 0)
             {
-                while (userValue > 0)
+                while (num2 > 0)
                 {
-                    f *= userValue--;
-                    Console.WriteLine(f);
+                    f *= num2--;
                 }
-
             }
             else
             {
                 int d = 1;
                 d *= d--;
-                Console.WriteLine(d);
                 return d;
-
             }
-
             return f;
         }
 
 
         static void PrintOddsFromZeroTo(uint num)
         {
-            Console.WriteLine("Enter number:");
-            int userValue = int.Parse(Console.ReadLine());
+           
+            
 
-            for (int i = 0; i <= userValue; i++)
+            for (int i = 0; i <= num; i++)
                 if (i % 2 != 0)
-                    Console.WriteLine("{0}", i);
+                    Console.Write("{0} ", i);
         }
         static void Main(string[] args)
         {
             PrintProductTable();
             Console.Clear();
             Console.WriteLine("2 task:");
-            Console.WriteLine("Enter number");
             int a = 5;
             PrintNumbersToZero(a);
             PrintNumbersToZero(10);
@@ -94,14 +89,14 @@ namespace LearnCsharp2
 
             Console.Clear();
             Console.WriteLine("3 task");
-            Console.WriteLine("Enter number");
-            int b = 0;
+            int b = 6;
             Factorial(b);
+            Console.WriteLine(Factorial(b));
             Console.ReadKey();
 
             Console.Clear();
             Console.WriteLine("4 task");
-            UInt32 c = 0;
+            UInt32 c = 10;
             PrintOddsFromZeroTo(c);
 
             Console.ReadKey();
