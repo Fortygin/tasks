@@ -49,13 +49,13 @@ namespace LearnCsharp2
 
         static int Factorial(int num2)
         {
-            int a = 0;
+            int userValue = int.Parse(Console.ReadLine()); 
             int f = 1;
-            if (a > 0)
+            if (userValue > 0)
             {
-                while (a > 0)
+                while (userValue > 0)
                 {
-                    f *= a--;
+                    f *= userValue--;
                     Console.WriteLine(f);
                 }
 
@@ -96,8 +96,8 @@ namespace LearnCsharp2
             Console.Clear();
             Console.WriteLine("3 task");
             Console.WriteLine("Enter number");
-            int userValue = int.Parse(Console.ReadLine());
-            Factorial(userValue);
+            int b = 0;
+            Factorial(b);
             Console.ReadKey();
 
             Console.Clear();
