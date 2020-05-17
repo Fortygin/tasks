@@ -26,23 +26,20 @@ namespace LearnCsharp2
 
         static void PrintNumbersToZero(int num)
         {
-
-            for (int i = num; i >= 0; i--)
+            while (num !=0)
             {
-
-                Console.Write(i + " ");
-            }
-
-            if (num < 0)
-            {
-                for (int i = num; i <= 0; i++)
+                if (num > 0)
                 {
-                    Console.Write(i + " ");
+                    Console.Write(num + " ");
+                    num--;
+                }
+                else
+                {
+                    Console.Write(num + " ");
+                    num++;
                 }
             }
-
-            
-
+          
         }
 
         static int Factorial(int num2)
