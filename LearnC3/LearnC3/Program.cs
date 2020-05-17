@@ -77,19 +77,19 @@ namespace LearnCsharp2
         {
 
 
-
-            for (double x = -1.5; x <=0.5; )
+            double x, y, z;
+            for (x = -1.5; x <=0.5; )
             {
                 x = x + 0.5;
                 if (x == 0)
                     continue;
-                for (double y = -1.5; y <= 0.5; )
+                for (y = -1.5; y <= 0.5; )
                 {
                     
                     y = y + 0.5;
                     if (y == 0)
                         continue;
-                    for (double z =-1.5; z <= 0.5; )
+                    for (z =-1.5; z <= 0.5; )
                     {
                         z = z + 0.5;
                         if (z == 0)
