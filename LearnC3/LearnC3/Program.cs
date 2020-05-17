@@ -72,6 +72,45 @@ namespace LearnCsharp2
                 if (i % 2 != 0)
                     Console.Write("{0} ", i);
         }
+
+        static void task5()
+        {
+
+
+
+            for (double x = -1.5; x <=0.5; )
+            {
+                x = x + 0.5;
+                if (x == 0)
+                    continue;
+                for (double y = -1.5; y <= 0.5; )
+                {
+                    
+                    y = y + 0.5;
+                    if (y == 0)
+                        continue;
+                    for (double z =-1.5; z <= 0.5; )
+                    {
+                        z = z + 0.5;
+                        if (z == 0)
+                            continue;
+                        double result = 1 + x - x*y*z/2+2/z+2*z/(x*y);
+                        Console.WriteLine("x=" + x  + "\t|" + "y=" + y + "\t|" + "z=" + z + "\t|" + "result=" + result);
+                    }
+                    
+                }
+               
+            }
+           
+
+
+
+
+
+
+            Console.ReadKey();
+
+        }
         static void Main(string[] args)
         {
             PrintProductTable();
@@ -95,6 +134,10 @@ namespace LearnCsharp2
             Console.WriteLine("4 task");
             UInt32 c = 10;
             PrintOddsFromZeroTo(c);
+
+            Console.Clear();
+            Console.WriteLine("5 task");
+            task5();
 
             Console.ReadKey();
 
