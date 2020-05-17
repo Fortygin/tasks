@@ -26,24 +26,21 @@ namespace LearnCsharp2
         static void PrintNumbersToZero(int num)
         {
 
-            int userValue = int.Parse(Console.ReadLine());
-
-            Console.Clear();
-            for (int i = userValue; i >= 0; i--)
+            for (int i = num; i >= 0; i--)
             {
 
-                Console.WriteLine(i);
+                Console.Write(i + " ");
             }
 
-            if (userValue < 0)
+            if (num < 0)
             {
-                for (int i = userValue; i <= 0; i++)
+                for (int i = num; i <= 0; i++)
                 {
-                    Console.WriteLine(i);
+                    Console.Write(i + " ");
                 }
             }
 
-            Console.ReadKey();
+            
 
         }
 
@@ -88,9 +85,11 @@ namespace LearnCsharp2
             Console.Clear();
             Console.WriteLine("2 task:");
             Console.WriteLine("Enter number");
-            int a = 0;
-
+            int a = 5;
             PrintNumbersToZero(a);
+            PrintNumbersToZero(10);
+            PrintNumbersToZero(-4);
+            Console.ReadKey();
 
 
             Console.Clear();
