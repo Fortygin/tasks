@@ -46,20 +46,13 @@ namespace LearnCsharp2
         {
             
             int f = 1;
-            if (num2 > 0)
-            {
+            
                 while (num2 > 0)
                 {
                     f *= num2--;
                 }
-            }
-            else
-            {
-                int d = 1;
-                d *= d--;
-                return d;
-            }
             return f;
+         
         }
 
 
@@ -77,40 +70,54 @@ namespace LearnCsharp2
         {
 
 
-            double x, y, z;
-            for (x = -1.5; x <=0.5; )
+            float x, y, z;
+            for (x = -1.5f; x <=0.5f; )
             {
-                x = x + 0.5;
+                x = x + 0.5f;
                 if (x == 0)
                     continue;
-                for (y = -1.5; y <= 0.5; )
+                for (y = -1.5f; y <= 0.5f; )
                 {
                     
-                    y = y + 0.5;
+                    y = y + 0.5f;
                     if (y == 0)
                         continue;
-                    for (z =-1.5; z <= 0.5; )
+                    for (z =-1.5f; z <= 0.5f; )
                     {
-                        z = z + 0.5;
+                        z = z + 0.5f;
                         if (z == 0)
                             continue;
-                        double result = 1 + x - x*y*z/2+2/z+2*z/(x*y);
-                        float f;
-                        f = (float)result;
-                        Console.WriteLine("x=" + x  + "\t|" + "y=" + y + "\t|" + "z=" + z + "\t|" + "result=" + f);
+                       float result = 1 + x - x*y*z/2+2/z+2*z/(x*y);
+                        
+                        
+                        Console.WriteLine("x=" + x  + "\t|" + "y=" + y + "\t|" + "z=" + z + "\t|" + "result=" + result);
                     }
                     
                 }
                
             }
+
+        }
+
+        static void PrintFibonachiTo(uint num)
+        {
+            uint numberOne = 1;
+            uint numberTwo = 1;
+            
+            uint sum;
            
+            for (uint i = 0; i < num; i++)
+                {
+                    sum = numberOne;
+                    numberOne = numberTwo;
+                    numberTwo += sum;
+
+                    Console.Write(sum + " ");
+
+                }
 
 
 
-
-
-
-            Console.ReadKey();
 
         }
         static void Main(string[] args)
@@ -140,6 +147,12 @@ namespace LearnCsharp2
             Console.Clear();
             Console.WriteLine("5 task");
             task5();
+
+            Console.Clear();
+            Console.WriteLine("6 task");
+            uint k = 5;
+            PrintFibonachiTo(k);
+
 
             Console.ReadKey();
 
