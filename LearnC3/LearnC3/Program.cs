@@ -95,7 +95,9 @@ namespace LearnCsharp2
                         if (z == 0)
                             continue;
                         double result = 1 + x - x*y*z/2+2/z+2*z/(x*y);
-                        Console.WriteLine("x=" + x  + "\t|" + "y=" + y + "\t|" + "z=" + z + "\t|" + "result=" + result);
+                        float f;
+                        f = (float)result;
+                        Console.WriteLine("x=" + x  + "\t|" + "y=" + y + "\t|" + "z=" + z + "\t|" + "result=" + f);
                     }
                     
                 }
